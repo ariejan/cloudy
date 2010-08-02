@@ -6,12 +6,11 @@ begin
   Jeweler::Tasks.new do |gem|
     gem.name = "cloudy"
     gem.summary = %Q{Easily deploy your rack/rails app to the cloud.}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.description = %Q{With Cloudy you are able to easily deploy your rack/rails applicaiton into the cloud.}
     gem.email = "ariejan@ariejan.net"
     gem.homepage = "http://github.com/ariejan/cloudy"
     gem.authors = ["Ariejan de Vroom"]
-    gem.add_development_dependency "rspec", ">= 1.2.9"
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
+    gem.add_development_dependency "rspec", ">= 1.3.0"
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
